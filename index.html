@@ -9,7 +9,7 @@
 <body>
   <header class="main-header">
     <div class="container">
-      <nav class="main-navigation-left">
+      <nav class="main-navigation">
         <ul>
           <li>
             <a href="#">Информация</a>
@@ -17,15 +17,6 @@
           <li>
             <a href="#">Фото и видео</a>
           </li>
-        </ul>
-      </nav>
-
-      <div class="main-navigation-logo">
-        <a href="#"><img src="img/logo-header.png" width="90px" height="110px" alt="На главную"></a>
-      </div>
-
-      <nav class="main-navigation-right">
-        <ul>
           <li>
             <a href="#">Карта штата</a>
           </li>
@@ -34,76 +25,87 @@
           </li>
         </ul>
       </nav>
+      <div class="logo-header">
+        <a href="#"><img src="img/logo-header.png" width="100px" height="110px" alt="На главную"></a>
+      </div>
     </div>
   </header>
-
+  <!--Начало блока с заглавным лого-->
   <main class="container">
     <div class="index-content">
       <div class=index-logo>
         <img src="img/index-logo.jpg" width="100%" height="300px" alt="Welcome to Sedona!">
       </div>
-
-      <h2 class="index-content-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-
+      <!--Конец блока с заглавным лого-->
+      <!--Начало блока с заглавным CTA-->
+      <div class="top-content">
+        <h2 class="features-name">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+      </div>
+      <!--Конец блока с заглавным CTA-->
+      <!--Начало блоков с преимуществами-->
+      <!--Начало блока c преимуществом "Настоящий городок" - фото справа-->
       <section class="index-content-advantages">
         <div class="index-content-info column-left-info">
-          <b>Настоящий городок</b>
+          <b class="features-name">Настоящий городок</b>
           <p>-№1-<br> Cедона - не аттракцион для туристов, там течет своя жизнь
           </p>
         </div>
         <div class="index-content-pic column-right-pic">
-          <img src="img/photo-1.jpg" width="75%" height="200px" alt="На улицах Седоны">
         </div>
       </section>
-
+      <!--Конец блока c преимуществом и фото справа-->
+      <!--Начало 1го блока из 3-х преимуществ с иконками-->
       <section class="features">
-        <div class="features-item">
+        <div class="features-item" "feature-left">
           <b class="features-name">Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!
           </p>
         </div>
-        <div class="features-item">
+        <div class="features-item" "feature-center">
           <b class="features-name">Еда</b>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!
           </p>
         </div>
-        <div class="features-item">
+        <div class="features-item" "feature-right">
           <b class="features-name">Сувениры</b>
           <p>Не только китайского, но и местного производства!
           </p>
         </div>
       </section>
-
+      <!--Конец 1го блока из 3-х преимуществ с иконками-->
+      <!--Конец блока c преимуществом "Мост Дьявола" - фото слева-->
       <section class="index-content-advantages">
         <div class="index-content-pic column-left-pic">
-          <img src="img/photo-2.jpg" width="75%" height="200px" alt="Мост Дьявола">
         </div>
         <div class="index-content-info column-right-info">
-          <b>Там есть Мост Дьявола</b>
+          <b class="features-name">Там есть Мост Дьявола</b>
           <p>-№2-<br> Да, по нему можно пройти! Если, конечно, вы осмелитесь
           </p>
         </div>
       </section>
-
+      <!--Конец блока c преимуществом "Мост Дьявола" - фото слева-->
+      <!--Начало 2го блока из 3-х преимуществ без иконок-->
       <section class="features">
-        <div class="features-item">
+        <div class="features-item" "feature-left-noicon">
           <b class="features-name">Небольшая площадь</b>
           <p>-№3-<br> Все достопримечательности находятся очень близко
           </p>
         </div>
-        <div class="features-item">
+        <div class="features-item" "feature-center-noicon">
           <b class="features-name">Красивая дорога</b>
           <p>-№4-<br> Ехать в Седону из Лас-Вегаса совсем не скучно!
           </p>
         </div>
-        <div class="features-item">
+        <div class="features-item" "feature-right-noicon">
           <b class="features-name">Мало туристов</b>
           <p>-№5-<br>Большинство едет в Гранд Каньон и толпится там
           </p>
         </div>
       </section>
-
+      <!--Конец 2го блока из 3-х преимуществ без иконок-->
+      <!--Конец блоков с преимуществами-->
+      <!--Начало блока c формой-->
       <div class="main-form">
         <b class="main-form-quest">Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
@@ -116,6 +118,7 @@
           <button class="main-form-btn" type="submit">Найти</button>
         </form>
       </div>
+      <!--Конец блока c формой-->
       <div class="map">
         <img src="img/map.jpg" width="100%" height="500px" alt="Карта">
       </div>
@@ -133,7 +136,8 @@
 	     <a class="social-btn social-button-ytb" href="#">Youtube</a>
 	 </div>
 	 <div class="footer-copyright">
-	 <p>Website by: <a class="btn" href="http://htmlacademy.ru">HTML Academy</a></p>
+	 <p>Website by:
+     <a class="btn" href="http://htmlacademy.ru">HTML Academy</a></p>
 	 </div>
 
 	 </div>
