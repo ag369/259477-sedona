@@ -25,16 +25,14 @@
           </li>
         </ul>
       </nav>
-      <div class="logo-header">
-        <a href="#"><img src="img/logo-header.png" width="100px" height="110px" alt="На главную"></a>
-      </div>
+      <a class="logo-header" href="#"><img src="img/logo-header.png" width="100px" height="110px" alt="На главную"></a>
     </div>
   </header>
   <!--Начало блока с заглавным лого-->
   <main class="container">
     <div class="index-content">
       <div class=index-logo>
-        <img src="img/index-logo.jpg" width="100%" height="300px" alt="Welcome to Sedona!">
+        <img src="img/index-logo.jpg" alt="Welcome to Sedona!">
       </div>
       <!--Конец блока с заглавным лого-->
       <!--Начало блока с заглавным CTA-->
@@ -48,7 +46,8 @@
       <section class="index-content-advantages">
         <div class="index-content-info column-left-info">
           <b class="features-name">Настоящий городок</b>
-          <p>-№1-<br> Cедона - не аттракцион для туристов, там течет своя жизнь
+          <span>-№1-</span>
+          <p>Cедона - не аттракцион для туристов, там течет своя жизнь
           </p>
         </div>
         <div class="index-content-pic column-right-pic">
@@ -57,17 +56,17 @@
       <!--Конец блока c преимуществом и фото справа-->
       <!--Начало 1го блока из 3-х преимуществ с иконками-->
       <section class="features">
-        <div class="features-item" "feature-left">
+        <div class="features-item feature-left">
           <b class="features-name">Жилье</b>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!
           </p>
         </div>
-        <div class="features-item" "feature-center">
+        <div class="features-item feature-center">
           <b class="features-name">Еда</b>
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!
           </p>
         </div>
-        <div class="features-item" "feature-right">
+        <div class="features-item feature-right">
           <b class="features-name">Сувениры</b>
           <p>Не только китайского, но и местного производства!
           </p>
@@ -80,26 +79,30 @@
         </div>
         <div class="index-content-info column-right-info">
           <b class="features-name">Там есть Мост Дьявола</b>
-          <p>-№2-<br> Да, по нему можно пройти! Если, конечно, вы осмелитесь
+          <span>-№2-</span>
+          <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь
           </p>
         </div>
       </section>
       <!--Конец блока c преимуществом "Мост Дьявола" - фото слева-->
       <!--Начало 2го блока из 3-х преимуществ без иконок-->
       <section class="features">
-        <div class="features-item" "feature-left-noicon">
+        <div class="features-item feature-left-noicon">
           <b class="features-name">Небольшая площадь</b>
-          <p>-№3-<br> Все достопримечательности находятся очень близко
+          <span>-№3-</span>
+          <p>Все достопримечательности находятся очень близко
           </p>
         </div>
-        <div class="features-item" "feature-center-noicon">
+        <div class="features-item feature-center-noicon">
           <b class="features-name">Красивая дорога</b>
-          <p>-№4-<br> Ехать в Седону из Лас-Вегаса совсем не скучно!
+          <span>-№4-</span>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!
           </p>
         </div>
-        <div class="features-item" "feature-right-noicon">
+        <div class="features-item feature-right-noicon">
           <b class="features-name">Мало туристов</b>
-          <p>-№5-<br>Большинство едет в Гранд Каньон и толпится там
+          <span>-№5-</span>
+          <p>Большинство едет в Гранд Каньон и толпится там
           </p>
         </div>
       </section>
@@ -111,16 +114,30 @@
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <h2 class="main-form-title">Поиск гостиницы в Седоне</h2>
         <form class="hotel-search" action="#" method="get">
-          <label>Дата заезда:<input type="text" name="arrival-date" placeholder="24 апреля 2016"></label>
-          <label>Дата выезда:<input type="text" name="leaving-date" placeholder="4 июля 2016"></label>
-          <label>Взрослые:<span class="minus">-</span><input type="text" name="adults" placeholder="2"><span class="plus">+</span></label>
-          <label>Дети:<span class="minus">-</span><input type="text" name="kids" placeholder="0"><span class="plus">+</span></label>
+          <div class="form-group">
+            <label>Дата заезда:</label>
+            <input type="text" name="arrival-date" value="2014-04-24" placeholder="24 апреля 2016">
+          </div>
+          <div class="form-group">
+            <label>Дата выезда:</label>
+            <input type="text" name="leaving-date" value="2014-06-04" placeholder="4 июля 2016">
+          </div>
+          <div class="form-group">
+            <label>Взрослые:</label>
+            <span class="minus">-</span>
+            <input type="text" value="2" name="adults" placeholder="2">
+            <span class="plus">+</span>
+          </div>
+          <div class="form-group"> <label>Дети:</label>
+            <span class="minus">-</span>
+            <input type="text" value="0" name="kids" placeholder="0">
+            <span class="plus">+</span>
+          </div>
           <button class="main-form-btn" type="submit">Найти</button>
         </form>
       </div>
       <!--Конец блока c формой-->
       <div class="map">
-        <img src="img/map.jpg" width="100%" height="500px" alt="Карта">
       </div>
     </div>
   </main>
@@ -128,21 +145,21 @@
   <footer class="main-footer">
     <div class="container">
       <div class="footer-site-name">
-        <b>#VisitSedona<b>
-		</div>
+        <b>#VisitSedona</b>
+      </div>
       <div class="footer-social">
-		   <a class="social-btn social-button-twit" href="#">Твиттер</a>
-	     <a class="social-btn social-button-fb" href="#">Фейсбук</a>
-	     <a class="social-btn social-button-ytb" href="#">Youtube</a>
-	 </div>
-	 <div class="footer-copyright">
-	 <p>Website by:
-     <a class="btn" href="http://htmlacademy.ru">HTML Academy</a></p>
-	 </div>
+        <a class="social-btn social-button-twit" href="#">Твиттер</a>
+        <a class="social-btn social-button-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-button-ytb" href="#">Youtube</a>
+      </div>
+      <div class="footer-copyright">
+        <p>Website by:
+          <a class="btn" href="http://htmlacademy.ru">HTML Academy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
-	 </div>
+</body>
 
-	</footer>
-
-  </body>
 </html>

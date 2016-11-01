@@ -25,15 +25,13 @@
           </li>
         </ul>
       </nav>
-      <div class="logo-header">
-        <a href="#"><img src="img/logo-header.png" width="100px" height="110px" alt="На главную"></a>
-      </div>
+      <a class="logo-header" href="#"><img src="img/logo-header.png" width="100px" height="110px" alt="На главную"></a>
     </div>
   </header>
   <!--Начало блока формы с чекбоксами вверху -->
   <main class="container">
     <form class="inner-form" action="#" method="get">
-      <div class="search-form" "form-column-left">
+      <div class="search-form form-column-left">
         <fieldset>
           <legend class="search-form-title">Инфраструктура</legend>
           <label><input type="checkbox" name="infrs" id="pool" checked>Бассейн</label>
@@ -47,7 +45,7 @@
           <label><input type="checkbox" name="hotel-type" id="appartment" checked>Аппартаменты</label>
         </fieldset>
       </div>
-      <div class="search-form" "form-column-right">
+      <div class="search-form form-column-right">
         <label class="search-form-title">Стоимость в сутки (р.) </label><br>
         <input type="text" name="min-price" placeholder="от 0">
         <input type="text" name="max-price" placeholder="до 3000">
@@ -58,17 +56,16 @@
     <!--Конец блока формы с чекбоксами вверху -->
     <!--Начало блока сортировки-->
     <div class="search-result">
-      <div class="search-result-summary" "summary-column-left">
+      <div class="search-result-summary summary-column-left">
         <b>Найдено: 3</b>
         <p>Сортировка:
           <a href="#">по цене</a>
           <a href="#">по типу</a>
           <a href="#">по рейтингу</a>
       </div>
-      <div class="search-result-summary" "summary-column-right">
+      <div class="search-result-summary summary-column-right">
         <a class="search-result-up" href="#">вверх</a>
         <a class="search-result-down" href="#">вниз</a>
-        </p>
       </div>
     </div>
     <!--Конец блока сортировкаи-->
@@ -76,11 +73,11 @@
     <div class="search-result-list">
       <!--Результат поиска 1-->
       <div class="search-result-item">
-        <div class="search-result-info" "item-column-left">
+        <article class="search-result-info item-column-left">
           <a href="#"><img src="img/hotel-1.jpg" width="150px" height="110px" alt="Amara Resort&Spa"></a>
           <div class="item-info">
             <h2 class="item-title"><a href="#">Amara Resort&Spa</a>
-       </h2>
+            </h2>
             <div class="hotel-type">
               <p>Гостиница</p>
               <a href="#">Подробнее</a>
@@ -90,8 +87,8 @@
               <button class="search-result-btn">Забронировать</button>
             </div>
           </div>
-        </div>
-        <div class="search-result-rating" "item-column-right">
+        </article>
+        <div class="search-result-rating item-column-right">
           <i class="icon-star"></i>
           <span class="rating">Рейтинг: 8,5</span></p>
         </div>
@@ -99,11 +96,11 @@
 
       <!--Результат поиска 2-->
       <div class="search-result-item">
-        <div class="search-result-info" "item-column-left">
+        <article class="search-result-info item-column-left">
           <a href="#"><img src="img/hotel-1.jpg" width="150px" height="110px" alt="Desert Quail Inn"></a>
           <div class="item-info">
             <h2 class="item-title"><a href="#">Desert Quail Inn</a>
- </h2>
+            </h2>
             <div class="hotel-type">
               <p>Мотель</p>
               <a href="#">Подробнее</a>
@@ -113,19 +110,19 @@
               <button class="search-result-btn">Забронировать</button>
             </div>
           </div>
-        </div>
-        <div class="search-result-rating" "item-column-right">
+        </article>
+        <div class="search-result-rating item-column-right">
           <i class="icon-star"></i>
           <span class="rating">Рейтинг: 8,9</span></p>
         </div>
       </div>
       <!--Результат поиска 3-->
       <div class="search-result-item">
-        <div class="search-result-info" "item-column-left">
+        <article class="search-result-info item-column-left">
           <a href="#"><img src="img/hotel-1.jpg" width="150px" height="110px" alt="Villas at Poco Diablo"></a>
           <div class="item-info">
-            <h2 class="item-title"><a href="#">Villas at Poco Diablo</a>
- </h2>
+            <h2 class="item-title"><a href="#">Villas at Poco Diablo</a><
+            </h2>
             <div class="hotel-type">
               <p>Аппартаменты</p>
               <a href="#">Подробнее</a>
@@ -135,8 +132,8 @@
               <button class="search-result-btn">Забронировать</button>
             </div>
           </div>
-        </div>
-        <div class="search-result-rating" "item-column-right">
+        </article>
+        <div class="search-result-rating item-column-right">
           <i class="icon-star"></i>
           <span class="rating">Рейтинг: 9,2</span></p>
         </div>
@@ -146,24 +143,23 @@
   </main>
 
   <footer class="main-footer">
-    <div class="container ">
+    <div class="container">
       <div class="footer-site-name">
-        <b>#VisitSedona<b>
-		</div>
+        <b>#VisitSedona</b>
+      </div>
       <div class="footer-social">
-		 <a class="social-btn social-button-twit" href="#">Твиттер</a>
-	     <a class="social-btn social-button-fb" href="#">Фейсбук</a>
-	     <a class="social-btn social-button-ytb" href="#">Youtube</a>
-	 </div>
-	 <div class="footer-copyright">
-	 <p>Website by:
-	 </p>
-	 <a class="btn" href="http://htmlacademy.ru">HTML Academy</a>
-	 </div>
+        <a class="social-btn social-button-twit" href="#">Твиттер</a>
+        <a class="social-btn social-button-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-button-ytb" href="#">Youtube</a>
+      </div>
+      <div class="footer-copyright">
+        <p>Website by:
+          <a class="btn" href="http://htmlacademy.ru">HTML Academy</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
-	  </div>
+</body>
 
-	</footer>
-
-  </body>
 </html>
