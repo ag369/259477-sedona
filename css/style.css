@@ -1,29 +1,320 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-navigation {
+    width: 1200px;
+    min-height: 56px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.menu-item1 {
+    float: left;
+    width: 250px;
+    min-height: 50px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.menu-item2 {
+    float: left;
+    width: 250px;
+    min-height: 50px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.menu-item3 {
+    float: right;
+    width: 250px;
+    min-height: 50px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.menu-item4 {
+    float: right;
+    width: 250px;
+    min-height: 50px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.index-content {
+    width: 1200px;
+    min-height: 509px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.top-content {
+    width: 1200px;
+    min-height: 208px;
+    background: rgba(0, 0, 255, 0.5);
+    outline: 3px solid #000000;
+}
+
+.index-content-advantages {
+    width: 1200px;
+    height: 256px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.index-content-info {
+    width: 1200px;
+    height: 256px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.column-left-info {
+    display: inline-block;
+    width: 400px;
+    min-height: 256px;
+    box-sizing: border-box;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.column-right-pic {
+    float: right;
+    width: 800px;
+    min-height: 256px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.features {
+    width: 1200px;
+    min-height: 256px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.feature-left {
+    float: left;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.feature-center {
+    float: left;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.feature-right {
+    float: right;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.column-left-pic {
+    float: left;
+    width: 800px;
+    min-height: 256px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.column-right-info {
+    display: inline-block;
+    width: 400px;
+    min-height: 256px;
+    box-sizing: border-box;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.feature-left-noicon {
+    float: left;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.feature-center-noicon {
+    float: left;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.feature-right-noicon {
+    float: right;
+    width: 400px;
+    min-height: 330px;
+    outline: 3px solid #000000;
+}
+
+.main-form-invite {
+    width: 1200px;
+    min-height: 298px;
+    background: rgba(0, 0, 255, 0.5);
+    outline: 3px solid #000000;
+}
+
+.map {
+    width: 1200px;
+    min-height: 478px;
+    background: rgba(0, 0, 255, 0.5);
+    outline: 3px solid #000000;
+}
+
+.main-footer {
+    width: 1200px;
+    min-height: 120px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.footer-site-name {
+    float: left;
+    width: 400px;
+    min-height: 100px;
+    outline: 3px solid #000000;
+}
+
+.footer-social {
+    float: left;
+    width: 400px;
+    min-height: 100px;
+    outline: 3px solid #000000;
+}
+
+.footer-copyright {
+    float: right;
+    width: 400px;
+    min-height: 100px;
+    outline: 3px solid #000000;
+}
+
+.inner-form {
+    width: 1200px;
+    min-height: 218px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.form-column-left {
+    float: left;
+    width: 528px;
+    margin-left: 73px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.form-column-right {
+    float: right;
+    width: 328px;
+    margin-right: 73px;
+    background: rgba(0, 200, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.search-result {
+    width: 1200px;
+    min-height: 88px;
+    outline: 3px solid #000000;
+}
+
+.summary-column-left {
+    float: left;
+    width: 528px;
+    min-height: 88px;
+    margin-left: 73px;
+    background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+}
+
+.summary-column-right {
+    float: right;
+    width: 241px;
+    min-height: 88px;
+    margin-right: 73px;
+    background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+}
+
+.search-result-item {
+    width: 1200px;
+    min-height: 158px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.search-result-pic {
+    display: block;
+    float: left;
+    margin-left: 73px;
+    width: 135px;
+    min-height: 90px;
+    background: rgba(255, 0, 0, 0.5);
+    outline: 3px solid #000000;
+}
+
+.item-info {
+    float: left;
+    width: 364px;
+    margin-left: 30px;
+    background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+}
+
+.search-result-rating {
+    float: right;
+    width: 241px;
+    min-height: 90px;
+    margin-right: 73px;
+    background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+        box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body {
-  font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .features-name {
-  font-weight: bold;
-  font-size: 21px;
-  text-transform: uppercase;
-  line-height: 26px;
-  color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #000000;
 }
 
 .features-name-white {
-  font-weight: bold;
-  font-size: 21px;
-  text-transform: uppercase;
-  line-height: 21;
-  /*color: #ffffff;*/
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 21;
+    /*color: #ffffff;*/
 }
 
 .main-form-quest {
-  font-weight: bold;
-  font-size: 30px;
-  text-transform: uppercase;
-  line-height: 24px;
-  color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: #000000;
 }
 
 ."main-form-title {
@@ -37,16 +328,16 @@ line-height:26;
 
 }
 .search-form-title {
-  font-weight: bold;
-  font-size: 16px;
-  font-transform: uppercase;
-  line-height: 21px;
-  /*color: #ffffff*/
+    font-weight: bold;
+    font-size: 16px;
+    font-transform: uppercase;
+    line-height: 21px;
+    /*color: #ffffff*/
 }
 .item-title {
-  font-weight: bold;
-  font-size: 21px;
-  font-transform: uppercase;
-  line-height: 26px;
-  color: #000000;
+    font-weight: bold;
+    font-size: 21px;
+    font-transform: uppercase;
+    line-height: 26px;
+    color: #000000;
 }
