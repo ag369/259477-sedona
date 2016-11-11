@@ -4,8 +4,12 @@
     clear: both;
 }
 
-.main-navigation {
+.main-container {
     width: 1200px;
+    margin: 0 auto;
+}
+
+.main-navigation {
     min-height: 56px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
@@ -15,6 +19,7 @@
     float: left;
     width: 250px;
     min-height: 50px;
+    margin-right: 20px;
     background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
 }
@@ -31,6 +36,7 @@
     float: right;
     width: 250px;
     min-height: 50px;
+    margin-left: 20px;
     background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
 }
@@ -44,28 +50,24 @@
 }
 
 .index-content {
-    width: 1200px;
     min-height: 509px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
 }
 
 .top-content {
-    width: 1200px;
     min-height: 208px;
     background: rgba(0, 0, 255, 0.5);
     outline: 3px solid #000000;
 }
 
 .index-content-advantages {
-    width: 1200px;
     height: 256px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
 }
 
 .index-content-info {
-    width: 1200px;
     height: 256px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
@@ -89,7 +91,6 @@
 }
 
 .features {
-    width: 1200px;
     min-height: 256px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
@@ -155,21 +156,18 @@
 }
 
 .main-form-invite {
-    width: 1200px;
     min-height: 298px;
     background: rgba(0, 0, 255, 0.5);
     outline: 3px solid #000000;
 }
 
 .map {
-    width: 1200px;
     min-height: 478px;
     background: rgba(0, 0, 255, 0.5);
     outline: 3px solid #000000;
 }
 
 .main-footer {
-    width: 1200px;
     min-height: 120px;
     background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
@@ -211,6 +209,17 @@
     outline: 3px solid #000000;
 }
 
+.chbox-left {
+    float: left;
+    width: 140px;
+    margin-right: 20px;
+}
+
+.radio-left {
+    float: left;
+    width: 140px;
+}
+
 .form-column-right {
     float: right;
     width: 328px;
@@ -220,7 +229,6 @@
 }
 
 .search-result {
-    width: 1200px;
     min-height: 88px;
     outline: 3px solid #000000;
 }
@@ -230,7 +238,19 @@
     width: 528px;
     min-height: 88px;
     margin-left: 73px;
+    font-size: 0;
     background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+}
+
+.select {
+    display: inline-block;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 10px;
+    background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
 }
 
@@ -239,12 +259,12 @@
     width: 241px;
     min-height: 88px;
     margin-right: 73px;
+    font-size: 0;
     background: rgba(0, 0, 200, 0.5);
     outline: 3px solid #000000;
 }
 
 .search-result-item {
-    width: 1200px;
     min-height: 158px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
@@ -275,19 +295,8 @@
     margin-right: 73px;
     background: rgba(0, 0, 200, 0.5);
     outline: 3px solid #000000;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 body {
     font-family: "PT Sans", "Arial", sans-serif;
