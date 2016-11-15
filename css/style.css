@@ -15,54 +15,53 @@
     outline: 3px solid #000000;
 }
 
-.menu-item1 {
-    float: left;
-    width: 250px;
-    min-height: 50px;
-    margin-right: 20px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
+ul {
+  text-align: left;
+
 }
 
-.menu-item2 {
-    float: left;
-    width: 250px;
-    min-height: 50px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
+li {
+  display: inline-block;
+
 }
 
-.menu-item3 {
-    float: right;
-    width: 250px;
-    min-height: 50px;
-    margin-left: 20px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
-}
+.logo-header {
+  position: absolute;
+  top: 13px;
+  left: 600px;
 
-.menu-item4 {
-    float: right;
-    width: 250px;
-    min-height: 50px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
 }
 
 .index-content {
     min-height: 509px;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
 }
 
 .top-content {
     min-height: 208px;
+    margin-left: auto;
+    margin-right: auto;
     background: rgba(0, 0, 255, 0.5);
     outline: 3px solid #000000;
 }
 
+.index-logo {
+  width: 458px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 .features-name {
+text-align: center;
+
+}
+
+
 .index-content-advantages {
-    height: 256px;
+    min-height: 256px;
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
 }
@@ -72,87 +71,41 @@
     background: rgba(255, 0, 0, 0.5);
     outline: 3px solid #000000;
 }
-
-.column-left-info {
+.column {
     display: inline-block;
-    width: 400px;
-    min-height: 256px;
+    margin-left: -0.36em;
+    vertical-align: top;
+    width: 33.33334%;
+    padding: 35px;
     box-sizing: border-box;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
+  outline: 1px dashed black;
+
 }
 
-.column-right-pic {
-    float: right;
-    width: 800px;
-    min-height: 256px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
+.column_yellow {
+  background: yellow;
+}
+.column_white {
+  background: white;
+}
+.column_grey {
+  background: grey;
 }
 
-.features {
-    min-height: 256px;
-    background: rgba(255, 0, 0, 0.5);
-    outline: 3px solid #000000;
+.column_photo {
+  width:66.6666%;
+    padding: 65px 35px 5px;
 }
 
-.feature-left {
-    float: left;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
+.social {
+  text-align: center;
+  margin:16px 0;
 }
 
-.feature-center {
-    float: left;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
-}
-
-.feature-right {
-    float: right;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
-}
-
-.column-left-pic {
-    float: left;
-    width: 800px;
-    min-height: 256px;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
-}
-
-.column-right-info {
-    display: inline-block;
-    width: 400px;
-    min-height: 256px;
-    box-sizing: border-box;
-    background: rgba(0, 200, 0, 0.5);
-    outline: 3px solid #000000;
-}
-
-.feature-left-noicon {
-    float: left;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
-}
-
-.feature-center-noicon {
-    float: left;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
-}
-
-.feature-right-noicon {
-    float: right;
-    width: 400px;
-    min-height: 330px;
-    outline: 3px solid #000000;
+.phone {
+  font-size: 0.8em;
+  margin: 19px 0;
+  line-height:1em;
 }
 
 .main-form-invite {
@@ -168,7 +121,7 @@
 }
 
 .main-footer {
-    min-height: 120px;
+    min-height: 100px;
     background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
 }
@@ -209,6 +162,11 @@
     outline: 3px solid #000000;
 }
 
+.inner-form-label {
+  display: block;
+
+}
+
 .chbox-left {
     float: left;
     width: 140px;
@@ -243,7 +201,7 @@
     outline: 3px solid #000000;
 }
 
-.select {
+.select-left {
     display: inline-block;
     font-size: 15px;
     text-align: left;
@@ -254,13 +212,26 @@
     outline: 3px solid #000000;
 }
 
+
 .summary-column-right {
     float: right;
     width: 241px;
     min-height: 88px;
     margin-right: 73px;
+    text-align: right;
     font-size: 0;
     background: rgba(0, 0, 200, 0.5);
+    outline: 3px solid #000000;
+}
+
+
+.select-right {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 10px;
+    background: rgba(0, 200, 0, 0.5);
     outline: 3px solid #000000;
 }
 
@@ -293,10 +264,20 @@
     width: 241px;
     min-height: 90px;
     margin-right: 73px;
+    text-align: right;
     background: rgba(0, 0, 200, 0.5);
     outline: 3px solid #000000;
     box-sizing: border-box;
 }
+
+.rating {
+  display: inline-block;
+}
+
+.icon-star {
+  display: inline-block;
+}
+
 
 body {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -318,22 +299,13 @@ body {
     /*color: #ffffff;*/
 }
 
-.main-form-quest {
-    font-weight: bold;
-    font-size: 30px;
-    text-transform: uppercase;
-    line-height: 24px;
-    color: #000000;
-}
 
-."main-form-title {
- font-weight:bold;
+.main-form-title {
+font-weight:bold;
 font-size: 21px;
 text-transform: uppercase;
 line-height:26;
-
 /*color: #ffffff*/
-
 
 }
 .search-form-title {
